@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.teamTable {
+    width: 200px;
+    border: 1px solid white;
+}
+.scorersTable {
+    width: 200px;
+    border: 1px solid white;
+}
+.assistsTable {
+    width: 200px;
+    border: 1px solid white;
+}
+
+.item {
+    color: white;
+}
+.active {
+    color: magenta;
+}

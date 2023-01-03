@@ -1,0 +1,18 @@
+.header {
+    grid-area: header;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoEPL {
+    margin-left: 10px;
+    width: 120px;
+    height: auto;
+}
+
+.slogan {
+    color: #3d195b;
+    margin-right: 20px;
+}

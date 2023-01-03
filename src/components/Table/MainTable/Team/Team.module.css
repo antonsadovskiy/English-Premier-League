@@ -1,0 +1,14 @@
+.team {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+.pos_badge_name {
+    display: flex;
+    gap: 30px;
+}
+.stats {
+    display: flex;
+    gap: 30px;
+}

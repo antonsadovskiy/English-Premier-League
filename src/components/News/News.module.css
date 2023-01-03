@@ -1,0 +1,19 @@
+.navigation {
+    grid-area: nav;
+    background-color: #0e1841;
+    border: 1px solid white;
+}
+
+.nav_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.item {
+    color: white;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.content {
+    width: 600px;
+    height: 400px;
+}
+.container {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 600px;
+    height: auto;
+    /*border: 1px solid red;*/
+}

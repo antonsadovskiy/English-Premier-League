@@ -1,0 +1,20 @@
+.navigation {
+    grid-area: nav;
+    background-color: #0e1841;
+    border: 1px solid white;
+}
+
+.nav_wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 5px;
+}
+
+.item {
+    color: white;
+}
+
+.active {
+    color: magenta;
+}
