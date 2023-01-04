@@ -2,14 +2,14 @@ import React from "react";
 import BackgroundImage from "./Background/Background";
 import Matches from "./Matches/Matches";
 import LableMD from "./LableMD/LableMD";
-import set from "./MatchDay.module.css";
 
-const MatchDay = () => {
+const MatchDay = (props) => {
+    // debugger;
     return (
         <div>
             <BackgroundImage/>
-            <LableMD month="January" day="10"/>
-            <Matches/>
+            <LableMD state={props.state.dateData}/>
+            <Matches state={props.state}/>
         </div>
     )
 }

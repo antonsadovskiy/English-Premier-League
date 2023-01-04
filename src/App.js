@@ -6,8 +6,9 @@ import MatchDay from "./components/Matchday/MatchDay";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Table from "./components/Table/Table";
 import News from "./components/News/News";
+import state from "./redux/state";
 
-const App = () => {
+const App = (props) => {
     return (
         <BrowserRouter>
             <div className="container">
@@ -15,8 +16,8 @@ const App = () => {
                 <Nav/>
                 <div className="content">
                     <Routes>
-                        <Route path="/matchday/*" element={<MatchDay/>}/>
-                        <Route path="/table/*" element={<Table/>}/>
+                        <Route path="/matchday/*" element={<MatchDay state={props.state.MatchDaysPage}/>}/>
+                        <Route path="/table/*" element={<Table state={props.state.TablePage}/>}/>
                         <Route path="/news/*" element={<News/>}/>
                     </Routes>
                 </div>

@@ -6,9 +6,28 @@
 }
 .pos_badge_name {
     display: flex;
-    gap: 30px;
+    gap: 10px;
 }
 .stats {
     display: flex;
-    gap: 30px;
+    /*gap: 30px;*/
+}
+
+.badge img {
+    width: auto;
+    height: 25px;
+}
+.badge {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*height: 10px;*/
+}
+
+.item {
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

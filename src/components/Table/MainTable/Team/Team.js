@@ -4,10 +4,13 @@ const Team = (props) => {
     return (
         <div className={set.team}>
             <div className={set.pos_badge_name}>
-                <div className={set.item}>
+                <div className={set.pos}>
                     {props.pos}.
                 </div>
-                <div className={set.item}>
+                <div className={set.badge}>
+                    <img src={props.badge} alt="team logo"/>
+                </div>
+                <div className={set.name}>
                     {props.name}
                 </div>
             </div>

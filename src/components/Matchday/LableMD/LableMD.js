@@ -1,9 +1,13 @@
 import set from "./LableMD.module.css";
 
 const LableMD = (props) => {
+
+    let date = props.state.map(item => <h2>{item.month} {item.day}</h2>)
+
+    debugger;
     return (
         <div className={set.MD}>
-            <h2> {props.month} {props.day}</h2>
+            {date}
         </div>
     )
 }
