@@ -6,7 +6,6 @@ import MatchDay from "./components/Matchday/MatchDay";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Table from "./components/Table/Table";
 import News from "./components/News/News";
-import state from "./redux/state";
 
 const App = (props) => {
     return (

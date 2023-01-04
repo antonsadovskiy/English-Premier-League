@@ -13,7 +13,7 @@ const Table = (props) => {
             <div className={set.content}>
                 <Routes>
                     <Route path="table/teamTable/" element={<MainTable state={props.state}/>}/>
-                    <Route path="table/goalsTable/" element={<GoalScorers/>}/>
+                    <Route path="table/goalsTable/" element={<GoalScorers state={props.state}/>}/>
                     <Route path="table/assistsTable/" element={<Assists/>}/>
                 </Routes>
             </div>

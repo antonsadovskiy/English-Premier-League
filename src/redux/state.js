@@ -28,7 +28,7 @@ let state = {
             {month: "March", day: 18},
         ]
     },
-    // Array of teams statistics for Table component ***
+    // Array of different statistics for Table component ***
     TablePage: {
         teamsStatsData: [
             {position: 1, badge: Liverpool, name: "Liverpool", games: 15, wins: 12, draws: 3, loses: 0, gd: "40:14", points: 43},
@@ -39,6 +39,14 @@ let state = {
             {position: 6, badge: Newcastle, name: "Newcastle", games: 15, wins: 12, draws: 1, loses: 4, gd: "32:11", points: 24},
             {position: 7, badge: Tottenham, name: "Tottenham", games: 15, wins: 10, draws: 2, loses: 2, gd: "32:11", points: 22},
             {position: 8, badge: Chelsea, name: "Chelsea", games: 15, wins: 8, draws: 1, loses: 3, gd: "12:28", points: 20},
+        ],
+        playerStatsData: [
+            {position: 1, club: ManCity, name: "Haaland", country: "Norway", goals: 20, assists: 13},
+            {position: 2, club: ManU, name: "Ronaldo", country: "Portugal", goals: 12, assists: 14},
+            {position: 3, club: Tottenham, name: "Son", country: "Korea", goals: 10, assists: 10},
+            {position: 4, club: Liverpool, name: "Salah", country: "Egypt", goals: 20, assists: 14},
+            {position: 5, club: Liverpool, name: "Nunez", country: "Uruguay", goals: 20, assists: 14},
+            {position: 6, club: Liverpool, name: "Mane", country: "Senegal", goals: 20, assists: 14},
         ]
     }
 }
