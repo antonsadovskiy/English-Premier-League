@@ -1,0 +1,32 @@
+.team_wrapper {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.home_team, .away_team {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.versus {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.versus p {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+
+.home_team img, .away_team img {
+    width: auto;
+    height: 100px;
+}
